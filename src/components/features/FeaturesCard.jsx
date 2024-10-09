@@ -72,9 +72,9 @@ export default function FeaturesCard({ activeMenuIdx, menuContentLoading }) {
   }
 
   return (
-    <div className=" flex justify-center">
+    <div className=" flex justify-center relative">
       {/* Swiper carousel custom button */}
-      <div className="absolute w-full h-full  justify-between items-center gap-5 text-white hidden">
+      <div className="absolute w-full h-full flex   justify-between items-center gap-5 text-white">
         {/* previous button */}
         <div
           onClick={handlePrev}
