@@ -24,7 +24,7 @@ const ProjectConcept = () => {
                 alt="author"
                 width={751}
                 height={390}
-                className="w-[400px] md:w-[460px] lg:w-[500px] xl:w-full"
+                className="w-[400px] md:w-[460px] lg:w-[500px] xl:w-[650px] 2xl:w-[750px]"
               />
             </div>
 

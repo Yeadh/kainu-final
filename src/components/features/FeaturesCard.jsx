@@ -74,22 +74,18 @@ export default function FeaturesCard({ activeMenuIdx, menuContentLoading }) {
   return (
     <div className=" flex justify-center relative">
       {/* Swiper carousel custom button */}
-      <div className="absolute w-full h-full flex   justify-between items-center gap-5 text-white">
+      <div className="absolute w-full h-full flex justify-between items-center gap-5 text-white">
         {/* previous button */}
         <div
           onClick={handlePrev}
-          className={`w-8 h-8  xl:w-10 xl:h-10 flex justify-center items-center -ml-8 xl:-ml-14 cursor-pointer ${
-            slides === 3 ? "hidden" : "block"
-          }`}
+          className={`w-8 h-8  xl:w-10 xl:h-10 flex justify-center items-center -ml-8 xl:-ml-14  cursor-pointer`}
         >
           <IoIosArrowForward className="text-[#00FFAE] w-7 h-7 xl:w-10 xl:h-10 rotate-180" />
         </div>
         {/* next button */}
         <div
           onClick={handleNext}
-          className={`w-8 h-8  xl:w-10 xl:h-10 flex justify-center items-center -mr-8 xl:-ml-14 cursor-pointer ${
-            slides === 3 ? "hidden" : "block"
-          }`}
+          className={`w-8 h-8  xl:w-10 xl:h-10 flex justify-center items-center -mr-8 xl:-mr-14  cursor-pointer`}
         >
           <IoIosArrowForward className="text-[#00FFAE] w-7 h-7 xl:w-10 xl:h-10" />
         </div>

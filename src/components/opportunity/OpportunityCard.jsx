@@ -4,7 +4,7 @@ import Link from "next/link";
 const OpportunityCard = ({ card }) => {
   return (
     <Link href={"#"} className="group">
-      <div className="bg-[#152328] p-1.5 h-full border border-white/40">
+      <div className="bg-[#152328] p-1.5 h-full">
         <div className="overflow-hidden">
           <Image
             src={card?.icon}

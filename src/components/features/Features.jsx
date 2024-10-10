@@ -17,7 +17,7 @@ export default function Features() {
   };
 
   return (
-    <section className="main-container pt-8 sm:pt-10 md:pt-12 lg:pt-14 xl:pt-16 2xl:pt-24 overflow-hidden 2xl:px-44">
+    <section className="main-container pt-8 sm:pt-10 md:pt-12 lg:pt-14 xl:pt-16 2xl:pt-24 overflow-hidden">
       <div className="flex flex-col justify-center items-center gap-5 md:gap-6 lg:gap-8 xl:gap-10 2xl:gap-12">
         <FeaturesHeader handleActiveMenuIdx={handleActiveMenuIdx} />
         <FeaturesCard
