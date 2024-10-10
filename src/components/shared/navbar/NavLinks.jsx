@@ -8,7 +8,7 @@ export default function NavLinks() {
         <Link
           href={link.link}
           key={idx}
-          className="desc-text md:px-3 lg:px-4 2xl:px-6 hover:text-[#00E5FF] color-transition whitespace-nowrap"
+          className="desc-text md:px-3 lg:px-4 2xl:px-6 hover:text-[#FFE100] color-transition whitespace-nowrap"
         >
           {link.label}
         </Link>
