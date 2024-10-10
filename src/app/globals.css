@@ -351,7 +351,7 @@ body::-webkit-scrollbar-thumb {
   left: 0px;
   top: 0px;
   z-index: -1;
-  background: linear-gradient(to right, #54acd0, #54acd0);
+  background: linear-gradient(to right, #4000ff, #4000ff);
   transition: all 500ms ease;
 }
 

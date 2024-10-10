@@ -40,7 +40,7 @@ const Collective = () => {
               <div className="bg-[#0C181D] border border-white/50 w-fit lg:w-full h-full flex justify-center items-center cursor-pointer">
                 <div className="px-7 py-7 xl:px-9 xl:py-9 2xl:px-12 2xl:py-12 rounded-lg flex flex-col items-center gap-2 xl:gap-4">
                   <h3 className="font-poppins font-extrabold text-lg sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl uppercase w-fit">
-                    Play <span className="text-[#00E5FF]">rewards</span>
+                    Play <span className="text-[#FFE100]">rewards</span>
                   </h3>
                   <p className="desc-text opacity-70 max-w-[360px] md:max-w-[400px] lg:max-w-[350px] xl:max-w-[400px] 2xl:max-w-[507px] text-center text-white mb-2 md:mb-3">
                     Platform with popular streams. Engage with charismatic
@@ -62,7 +62,7 @@ const Collective = () => {
               <div className="bg-[#0C181D] border border-white/50 w-fit lg:w-full h-full flex justify-center items-center cursor-pointer">
                 <div className="px-7 py-7 xl:px-9 xl:py-9 2xl:px-12 2xl:py-12 rounded-lg flex flex-col items-center gap-2 xl:gap-4">
                   <h3 className="font-poppins font-extrabold text-lg sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl uppercase w-fit">
-                    Strategic <span className="text-[#00E5FF]">support</span>
+                    Strategic <span className="text-[#FFE100]">support</span>
                   </h3>
                   <p className="desc-text opacity-70 max-w-[360px] md:max-w-[400px] lg:max-w-[350px] xl:max-w-[400px] 2xl:max-w-[507px] text-center text-white mb-2 md:mb-3">
                     Platform with popular streams. Engage with charismatic

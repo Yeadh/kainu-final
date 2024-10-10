@@ -23,8 +23,8 @@ const CustomButtonVariantTwo = ({
         variant={primary ? "customAnimated" : "customAnimatedVersionTwo"}
         className={`px-6 rounded-none hover:text-black whitespace-nowrap uppercase font-bold m-1 relative z-30 2xl:tracking-wider ${buttonPadding} ${buttonHeight} ${textSize} ${
           primary
-            ? "bg-[#54ACD0] text-white hover:text-black"
-            : "bg-[#00ffae] text-black hover:text-white"
+            ? "bg-[#4000FF] text-[#FFE100] hover:text-black"
+            : "bg-[#00ffae] text-black hover:text-[#FFE100]"
         }`}
       >
         {/* qube element start */}

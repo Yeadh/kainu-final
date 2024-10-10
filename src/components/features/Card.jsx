@@ -28,7 +28,7 @@ const Card = ({ card, idx }) => {
         {/* <div className="w-fit mt-2 lg:mt-3 md:ml-3 lg:ml-5"> */}
         <div className="w-fit mt-2 lg:mt-3 absolute bottom-8 z-20">
           <CustomButtonVariantTwo
-            primary={false}
+            primary={true}
             buttonLink=""
             buttonPadding="2xl:px-10"
             buttonHeight="h-7 2xl:h-9"

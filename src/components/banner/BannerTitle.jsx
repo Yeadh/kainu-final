@@ -40,15 +40,8 @@ const BannerTitle = () => {
 
       {/* cta btn */}
       <div className="flex items-center gap-4 mt-4 md:mt-5 lg:mt-6 xl:mt-7 2xl:mt-9">
-        {/* <CustomButtonForLargeAndSmallDevice /> */}
-        {/* <Button
-          variant="customAnimated"
-          className="px-6 rounded-none border h-10 sm:h-[2.021rem] md:h-[2.0835rem] lg:h-[2.5835rem] xl:h-[2.875rem] hover:text-black text-[0.625rem] md:text-xs xl:text-sm whitespace-nowrap uppercase font-bold"
-        >
-          Watch Together
-        </Button> */}
-        <CustomButtonVariantTwo primary={true} />
-        <CustomButtonVariantTwo primary={false} textLable="Watch Together" />
+        <CustomButtonVariantTwo primary={false} />
+        <CustomButtonVariantTwo primary={true} textLable="Watch Together" />
       </div>
     </motion.div>
   );

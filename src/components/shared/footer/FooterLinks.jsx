@@ -41,8 +41,8 @@ export default function FooterLinks() {
             {/* btn */}
             <div className="max-w-[180px]">
               <Button
-                variant="customAnimated"
-                className="px-6 rounded-none h-10 sm:h-[2.021rem] md:h-[2.0835rem] lg:h-[2.5835rem] xl:h-[2.875rem]text-[0.625rem] md:text-xs xl:text-sm whitespace-nowrap uppercase font-bold bg-[#00E5FF] text-black flex items-center gap-2"
+                variant="customAnimatedVersionTwo"
+                className="px-6 rounded-none h-10 sm:h-[2.021rem] md:h-[2.0835rem] lg:h-[2.5835rem] xl:h-[2.875rem]text-[0.625rem] md:text-xs xl:text-sm whitespace-nowrap uppercase font-bold bg-[#00E5FF] text-black hover:text-[#FFE100] flex items-center gap-2"
               >
                 Subscribe
                 <Image
@@ -90,7 +90,7 @@ export default function FooterLinks() {
               <div key={idx} className="w-fit">
                 <Link
                   href={"/"}
-                  className="text-gray-400 hover:text-[#00E5FF] transition duration-300 ease-in-out font-poppins font-medium text-base xl:text-lg"
+                  className="text-gray-400 hover:text-[#FFE100] transition duration-300 ease-in-out font-poppins font-medium text-base xl:text-lg"
                 >
                   {link}
                 </Link>
@@ -117,7 +117,7 @@ export default function FooterLinks() {
               <div key={link} className="w-fit">
                 <Link
                   href={"/"}
-                  className="text-gray-400 hover:text-[#00E5FF] transition duration-300 ease-in-out font-poppins font-medium text-base xl:text-lg"
+                  className="text-gray-400 hover:text-[#FFE100] transition duration-300 ease-in-out font-poppins font-medium text-base xl:text-lg"
                 >
                   {link}
                 </Link>
