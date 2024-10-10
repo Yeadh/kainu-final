@@ -5,7 +5,7 @@ const Hamburger = ({ mobileNavOpen, setMobileNavOpen }) => {
     <div
       onClick={() => setMobileNavOpen((prev) => !prev)}
       className={`${
-        mobileNavOpen ? "border border-[#54acd0]" : "bg-[#54acd0]"
+        mobileNavOpen ? "border border-[#4000FF]" : "bg-[#4000FF]"
       } flex justify-center items-center w-9 h-9 md:w-10 md:h-10 rounded-full  color-transition relative z-50 cursor-pointer`}
     >
       {mobileNavOpen ? (
