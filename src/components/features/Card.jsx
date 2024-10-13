@@ -22,11 +22,11 @@ const Card = ({ card, idx }) => {
         className="flex flex-col gap-2 lg:gap-3 max-w-[600px] items-center rounded-md group cursor-pointer"
         onClick={handleDialogToggle} // Open dialog on card click
       >
-        <Image src={card.imgUrl} alt={card.heading} width={650} height={900} />
+        <Image src={card.imgUrl} alt={card.heading} width={650} height={900} className="max-h-[220px] sm:max-h-[270px] md:max-h-[320px] lg:max-h-[280px] xl:max-h-[350px] 2xl:max-h-[400px] object-cover object-top" />
 
         {/* btn */}
         {/* <div className="w-fit mt-2 lg:mt-3 md:ml-3 lg:ml-5"> */}
-        <div className="w-fit mt-2 lg:mt-3 absolute bottom-8 z-20">
+        <div className="w-fit mt-2 lg:mt-3 absolute bottom-4 sm:bottom-6 lg:bottom-8 z-20">
           <CustomButtonVariantTwo
             primary={true}
             buttonLink=""
@@ -37,15 +37,15 @@ const Card = ({ card, idx }) => {
       </motion.div>
 
       {/* Dialog */}
-      <Dialog open={isOpen} onOpenChange={handleDialogToggle}>
+      <Dialog open={isOpen} onOpenChange={handleDialogToggle} className="">
         <DialogOverlay />
-        <DialogContent className="flex justify-center items-center max-h-[80vh] lg:min-w-[600px] xl:min-w-[700px] 2xl:min-w-[900px]">
+        <DialogContent className="flex justify-center items-center max-h-[90vh]">
           <Image
             src={card.imgUrl}
             alt={card.heading}
             width={1200}
             height={900}
-            className="object-contain"
+            className="max-h-[90vh] object-contain"
           />
         </DialogContent>
       </Dialog>
