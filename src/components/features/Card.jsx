@@ -39,12 +39,13 @@ const Card = ({ card, idx }) => {
       {/* Dialog */}
       <Dialog open={isOpen} onOpenChange={handleDialogToggle}>
         <DialogOverlay />
-        <DialogContent className="flex justify-center items-center">
+        <DialogContent className="flex justify-center items-center max-h-[80vh] lg:min-w-[600px] xl:min-w-[700px] 2xl:min-w-[900px]">
           <Image
             src={card.imgUrl}
             alt={card.heading}
-            width={650}
+            width={1200}
             height={900}
+            className="object-contain"
           />
         </DialogContent>
       </Dialog>
