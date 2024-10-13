@@ -28,7 +28,7 @@ const PromotionCard = ({ card, idx }) => {
             {card?.headingSecondary}
           </span>
         </h1>
-        <p className="text-base sm:text-sm lg:text-base 2xl:text-lg italic text-center text-white">
+        <p className="text-base sm:text-sm lg:text-sm 2xl:text-base italic text-center text-white">
           {card?.desc}
         </p>
       </div>

@@ -31,11 +31,8 @@ const Multichain = () => {
           <h1 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-4xl font-poppins uppercase font-semibold">
             Building with <span className="text-[#00FFAE]">multichain</span>{" "}
           </h1>
-          <p className="text-xs lg:text-sm 2xl:text-base font-poppins text-white capitalize text-center md:text-left sm:max-w-[500px] md:max-w-full">
-            We’ve set on the path to make a gamer’s dream come true{" "}
-            <br className="hidden md:block" /> by offering an advance Social{" "}
-            <br className="hidden md:block" /> Gaming Platform catering to both
-            web2 and web3 users.
+          <p className="text-xs lg:text-sm 2xl:text-base font-poppins text-white capitalize text-center md:text-left sm:max-w-[500px] md:max-w-[380px] lg:max-w-[450px] xl:max-w-[550px]">
+            Our token will be bridge to different chains, to get different benefits from  different chains thats provide web3 solution like Avalanche, IMX, Wax  and more. These Chains can reward users if they use their chain. Also web3 games that are on these chains, can use our system very easy.
           </p>
         </motion.div>
 

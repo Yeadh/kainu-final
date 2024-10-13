@@ -33,7 +33,7 @@ export default function Home() {
       <div className="bg-[url('/assets/images/bg-img.webp')] bg-cover bg-no-repeat">
         <GamingPlatform />
         <ProjectConcept />
-        <Started />
+        {/* <Started /> */}
         <JoinParty />
       </div>
       <Team />

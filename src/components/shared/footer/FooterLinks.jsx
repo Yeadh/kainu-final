@@ -61,7 +61,7 @@ export default function FooterLinks() {
           Kainu is a Project from{" "}
           <span className="uppercase text-[#00E5FF]">CHAINVISION GAMES</span>
         </p>
-        <p className="text-xs xl:text-base text-[#7A7977] font-medium max-w-[320px] xl:max-w-[450px] 2xl:max-w-[550px]">
+        {/* <p className="text-xs xl:text-base text-[#7A7977] font-medium max-w-[320px] xl:max-w-[450px] 2xl:max-w-[550px]">
           Nothing on this website constitutes financial advice, and it is always
           recommended to consult a qualified financial advisor before
           participating in any token or NFT purchases.
@@ -75,7 +75,7 @@ export default function FooterLinks() {
             Ask in our telegram or discord channel for confirmation. Avoid other
             websites!
           </span>
-        </p>
+        </p> */}
       </div>
 
       {/* all links */}

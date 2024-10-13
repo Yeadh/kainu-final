@@ -23,8 +23,7 @@ const Statistics = () => {
           <div className="flex flex-col gap-2">
             <p className="font-poppins text-white capitalize text-sm sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl">
               Join our community of friendly, motivated people and start earning
-              hundreds of dollars every month by simply completing simple tasks
-              and surveys on katanainu
+               every month and find friends, esport Teams, games and more
             </p>
           </div>
         </motion.div>

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { FaLongArrowAltRight } from "react-icons/fa";
-import collectiveImg from "../../public/assets/images/collective-img.png";
+import collectiveImg from "../../public/assets/images/collective-img.jpg";
 import CustomButtonForLargeAndSmallDevice from "./shared/CustomButtonForLargeAndSmallDevice";
 import CustomButtonVariantTwo from "./ui/CustomButtonVariantTwo";
 import { bottomAnimVariant, leftAnimVariant } from "./anim";
@@ -40,12 +40,10 @@ const Collective = () => {
               <div className="bg-[#0C181D] border border-white/50 w-fit lg:w-full h-full flex justify-center items-center cursor-pointer">
                 <div className="px-7 py-7 xl:px-9 xl:py-9 2xl:px-12 2xl:py-12 rounded-lg flex flex-col items-center gap-2 xl:gap-4">
                   <h3 className="font-poppins font-extrabold text-lg sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl uppercase w-fit">
-                    Play <span className="text-[#FFE100]">rewards</span>
+                    NFT Gaming <span className="text-[#FFE100]">Marketplace</span>
                   </h3>
                   <p className="desc-text opacity-70 max-w-[360px] md:max-w-[400px] lg:max-w-[350px] xl:max-w-[400px] 2xl:max-w-[507px] text-center text-white mb-2 md:mb-3">
-                    Platform with popular streams. Engage with charismatic
-                    personalities, witness epic gameplay, and connect with
-                    vibrant community.
+                    Web2 that do not provide NFT, can get the first touch with our Gaming Marketplace. Web3 games can also onboard their NFTs with a great structured plattform.
                   </p>
                   <CustomButtonVariantTwo
                     textLable="Start playing"
@@ -65,9 +63,7 @@ const Collective = () => {
                     Strategic <span className="text-[#FFE100]">support</span>
                   </h3>
                   <p className="desc-text opacity-70 max-w-[360px] md:max-w-[400px] lg:max-w-[350px] xl:max-w-[400px] 2xl:max-w-[507px] text-center text-white mb-2 md:mb-3">
-                    Platform with popular streams. Engage with charismatic
-                    personalities, witness epic gameplay, and connect with
-                    vibrant community.
+                    Games that has a great playerbase will get support from us and from chains to get more players.
                   </p>
 
                   <CustomButtonVariantTwo
@@ -86,7 +82,7 @@ const Collective = () => {
             variants={bottomAnimVariant}
             initial="initial"
             whileInView={"enter"}
-            className="bg-[#11151b] rounded-md border border-slate-700  flex items-center justify-center"
+            className="flex items-center justify-center"
           >
             <Image
               src={collectiveImg}
@@ -95,7 +91,7 @@ const Collective = () => {
               height={600}
               sizes="(max-width: 1280px) 100vw, 50vw"
               placeholder="blur"
-              className="w-[450px] xl:w-[570px] 2xl:w-[700px]"
+              className="w-[450px] lg:w-[475px] xl:w-[590px] 2xl:w-[620px]"
             />
           </motion.div>
         </div>

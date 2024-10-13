@@ -563,28 +563,34 @@ export const statisticsData = [
     bgColor: "bg-[#0c345f]",
     hoverBgColor: "hover:bg-[#00E5FF]",
     socialLink:
-      "https://www.katanainu.com/assets/resources/katanainutokenomics.pdf",
+      "/assets/pdf/tokenomics.jpg",
   },
   {
-    label: "Team",
+    label: "White paper",
     icon: "/assets/icons/social-5.svg",
     bgColor: "bg-[#0c345f]",
     hoverBgColor: "hover:bg-[#00E5FF]",
-    socialLink: "https://www.katanainu.com/team",
+    socialLink: "/assets/pdf/whitepaper.pdf",
   },
 ];
 
 export const footerLink = {
   quickLink: [
-    "Pancakeswap",
-    "Uniswap",
+    // "Pancakeswap",
+    // "Uniswap",
     "Whitepaper",
     "Roadmap",
     "Tokenomics",
-    "FAQ",
-    "Chainplay",
+    // "FAQ",
+    // "Chainplay",
   ],
-  needHelp: ["Contact Us", "Discord", "Medium", "Reddit", "Chainvision Games"],
+  needHelp: [
+    "Contact Us",
+    //  "Discord",
+    // "Medium",
+    //  "Reddit",
+    // "Chainvision Games"
+      ],
 };
 
 export const footerPost = [
@@ -605,17 +611,17 @@ export const footerPost = [
 export const secondSectionCardData = [
   {
     img: "/assets/images/second-section-card/card-2.png",
-    headingPrimary: "MORE",
-    headingSecondary: "EARNING",
-    desc: "Free yourself from complexities videos vital aspect.",
+    headingPrimary: "Active &",
+    headingSecondary: "Earn!",
+    desc: " Stay active, play on live streams, play tournaments, join eSports team, comment on profiles. add photos and achievments and Earn rewards.",
     textColor: "#FFC531",
     descColor: "#FFE1C3",
   },
   {
     img: "/assets/images/second-section-card/card-3.png",
-    headingPrimary: "GAME &",
-    headingSecondary: "KEY SELLER",
-    desc: "Free yourself from complexities videos vital aspect.",
+    headingPrimary: "NFT Marketplace &",
+    headingSecondary: "Sell Games",
+    desc: "Addtionally we provide to buy games or keys on our plattform to have more revenue - Gaming NFT Marketplace will be a keypoint.",
     textColor: "#FF0DB7",
     descColor: "#FFE1F6",
   },
@@ -623,23 +629,23 @@ export const secondSectionCardData = [
     img: "/assets/images/second-section-card/card-4.png",
     headingPrimary: "web2 & web3",
     headingSecondary: "game launcher",
-    desc: "Free yourself from complexities videos vital aspect.",
+    desc: "We onboard real Games on our Plattform & Launcher like Steam or Epic Games to attract more players for those games. Playing on tournaments and more.",
     textColor: "#37CFFF",
     descColor: "#DBF6FF",
   },
   {
     img: "/assets/images/second-section-card/card-5.png",
-    headingPrimary: "Game",
-    headingSecondary: "promotion",
-    desc: "Free yourself from complexities videos vital aspect.",
+    headingPrimary: "Web3 NFT ",
+    headingSecondary: "Marketplace",
+    desc: "A Gaming NFT Marketplace is important for web3 Gaming to buy and sell NFTs on our plattform. Web2 skins can be purchased here too.",
     textColor: "#88FFFF",
     descColor: "#D7FFFF",
   },
   {
     img: "/assets/images/second-section-card/card-6.png",
-    headingPrimary: "unique Profil",
+    headingPrimary: "unique Profile",
     headingSecondary: "system",
-    desc: "Free yourself from complexities videos vital aspect.",
+    desc: "An advanced profil to add your photos, streams, videos, in-game achievments, friends, groups in one place. Comment and like different posts like on facebook or Twitter.",
     textColor: "#7877FF",
     descColor: "#E0E0FF",
   },
