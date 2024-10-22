@@ -49,15 +49,16 @@ const ProjectConcept = () => {
           </div>
 
           {/* btn */}
-          <Link href={"#"} className="sm:mt-3 lg:mt-0">
+          <div href={"#"} className="sm:mt-3 lg:mt-0">
             <CustomButtonVariantTwo
               primary={false}
               buttonPadding="xl:px-9 2xl:px-10"
               buttonHeight="h-8 md:h-9 xl:h-11 2xl:h-12"
               textSize="text-[0.625rem] md:text-xs xl:text-base 2xl:text-lg"
               textLable="to the 2009 webdesign"
+              buttonLink="/html/pcnews.html"
             />
-          </Link>
+          </div>
         </div>
       </div>
     </section>

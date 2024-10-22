@@ -32,8 +32,11 @@ const BookappCards = () => {
         <Link href={"#"} key={card.heading}>
           <motion.div
             variants={cardVariants}
-            className=" flex flex-col justify-center items-center relative"
+            className=" flex flex-col justify-center items-center relative rounded-lg overflow-hidden"
           >
+            {/* overlay */}
+            <div className="bg-gradient-to-b from-transparent to-black absolute w-full h-full left-0 top-0 z-10" />
+            {/* content */}
             <div className="absolute bottom-3 z-20">
               <h3 className="text-lg sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-semibold text-center uppercase font-poppins">
                 {card.heading}{" "}
@@ -46,7 +49,7 @@ const BookappCards = () => {
               alt={card.heading}
               width={640}
               height={500}
-              className=""
+              className="max-h-[385px] object-top object-cover"
             />
           </motion.div>
         </Link>

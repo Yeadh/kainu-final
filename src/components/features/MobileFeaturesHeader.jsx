@@ -25,6 +25,9 @@ const MobileFeaturesHeader = ({ handleActiveMenuIdx }) => {
       ? 7
       : 9
   );
+  const [spaceBetweenSlides, setSpaceBetweenSlides] = useState(
+    typeof window !== "undefined" && window.innerWidth < 1280 ? 20 : 12
+  );
   const swiperRef = useRef(null);
 
   useEffect(() => {
@@ -44,6 +47,9 @@ const MobileFeaturesHeader = ({ handleActiveMenuIdx }) => {
           : typeof window !== "undefined" && window.innerWidth < 1536
           ? 7
           : 9
+      );
+      setSpaceBetweenSlides(
+        typeof window !== "undefined" && window.innerWidth < 1280 ? 20 : 12
       );
     }
 
@@ -96,7 +102,7 @@ const MobileFeaturesHeader = ({ handleActiveMenuIdx }) => {
       <Swiper
         ref={swiperRef}
         slidesPerView={slides}
-        spaceBetween={20}
+        spaceBetween={spaceBetweenSlides}
         pagination={{
           clickable: true,
         }}

@@ -46,7 +46,7 @@ const CustomButtonVariantTwo = ({
     <Link
       href={buttonLink}
       target={buttonLink && "_blank"}
-      rel="noreferrer"
+      rel="noopener noreferrer"
       className="relative border border-[#848589] flex justify-center items-center"
     >
       {ButtonContent}

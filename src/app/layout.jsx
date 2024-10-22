@@ -5,6 +5,7 @@ import ScrollProvider from "./_scrollProvider";
 import Navbar from "@/components/shared/navbar/Navbar";
 import LoadingProvider from "./_loadingProvider";
 import Footer from "@/components/shared/footer/Footer";
+import ScrollToTopProvider from "@/components/shared/ScrollToTopProvider";
 
 const rubik = Rubik({
   subsets: ["latin"],
@@ -53,6 +54,7 @@ export default function RootLayout({ children }) {
       >
         <LoadingProvider>
           <ScrollProvider>
+            <ScrollToTopProvider />
             <Navbar />
             {children}
             <Footer />
