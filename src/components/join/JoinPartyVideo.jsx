@@ -30,9 +30,9 @@ const JoinPartyVideo = () => {
         variants={bottomAnimVariant}
         initial="initial"
         whileInView={"enter"}
-        className="flex-1 flex justify-end"
+        className="flex-1 flex justify-end w-full md:w-auto"
       >
-        <div className="">
+        {/* <div className="">
           <video
             src="https://themebeyond.com/videos/VID_20240627_140233_636.mp4"
             autoPlay
@@ -43,6 +43,20 @@ const JoinPartyVideo = () => {
             height={"100%"}
             className="object-cover"
           />
+        </div> */}
+        {/* baby doge video☝️ */}
+        <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
+          <iframe
+            className="absolute top-0 left-0 w-full h-full"
+            // width="560"
+            // height="315"
+            src="https://www.youtube.com/embed/agaQbuSlyIU?si=SCeN_9zCBMJZyENE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
         </div>
       </motion.div>
     </div>

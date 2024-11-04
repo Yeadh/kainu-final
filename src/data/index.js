@@ -497,19 +497,19 @@ export const opportunitySecondData = [
 
 export const bookCards = [
   {
-    img: "/assets/images/explore/ex-1.jpg",
+    img: "/assets/images/explore/ex-1.webp",
     heading: "Your",
     label: "Profile",
     desc: "We’ve set on the path make gamer’s Social Gaming Platrm",
   },
   {
-    img: "/assets/images/explore/ex-2.jpg",
+    img: "/assets/images/explore/ex-2.webp",
     heading: "Streaming",
     label: "Page",
     desc: "We’ve set on the path make gamer’s Social Gaming Platrm",
   },
   {
-    img: "/assets/images/explore/ex-3.jpg",
+    img: "/assets/images/explore/ex-3.webp",
     heading: "Match",
     label: "making",
     desc: "We’ve set on the path make gamer’s Social Gaming Platrm",
@@ -541,15 +541,15 @@ export const statisticsData = [
     icon: "/assets/icons/twitter.svg",
     bgColor: "bg-[#3c1a5f]",
     hoverBgColor: "hover:bg-[#F264FF]",
-    socialLink: "https://x.com/katanainu",
+    socialLink: "https://x.com/kainu_io",
   },
-  {
-    label: "Instagram",
-    icon: "/assets/icons/instagram.svg",
-    bgColor: "bg-[#3c1a5f]",
-    hoverBgColor: "hover:bg-[#F264FF]",
-    socialLink: "https://www.instagram.com/katanainu",
-  },
+  // {
+  //   label: "Instagram",
+  //   icon: "/assets/icons/instagram.svg",
+  //   bgColor: "bg-[#3c1a5f]",
+  //   hoverBgColor: "hover:bg-[#F264FF]",
+  //   socialLink: "https://www.instagram.com/katanainu",
+  // },
   {
     label: "Pitchdeck",
     icon: "/assets/icons/social-3.svg",
