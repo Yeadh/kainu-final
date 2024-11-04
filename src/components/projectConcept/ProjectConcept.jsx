@@ -56,7 +56,7 @@ const ProjectConcept = () => {
               buttonHeight="h-8 md:h-9 xl:h-11 2xl:h-12"
               textSize="text-[0.625rem] md:text-xs xl:text-base 2xl:text-lg"
               textLable="to the 2009 webdesign"
-              buttonLink="/html/pcnews.html"
+              buttonLink="/2010design/html/pcnews.html"
             />
           </div>
         </div>
