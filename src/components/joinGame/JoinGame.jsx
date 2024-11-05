@@ -3,7 +3,7 @@ import JoinGameContent from "./JoinGameContent";
 
 const JoinGame = () => {
   return (
-    <section className="overflow-hidden relative flex banner bg-[#010B0E]">
+    <section className="overflow-hidden relative flex banner bg-[#011219]">
       {/* kainu text element */}
       <div className="bg-[url('/assets/images/joinGame-bg.webp')] bg-no-repeat bg-cover absolute top-0 w-full h-full mx-auto max-w-[2000px] block md:hidden opacity-40 sm:opacity-100" />
       {/* main content */}
