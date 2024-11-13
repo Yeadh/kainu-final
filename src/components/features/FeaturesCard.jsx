@@ -14,6 +14,14 @@ import { IoIosArrowForward } from "react-icons/io";
 import FeaturesCardSkeletonLoader from "./FeaturesCardSkeletonLoader";
 
 export default function FeaturesCard({ activeMenuIdx, menuContentLoading }) {
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
+  const [activeCardIndex, setActiveCardIndex] = useState(0);
+
+  const handleCardClick = (index) => {
+    setActiveCardIndex(index);
+    setIsDialogOpen(true);
+  };
+
   const [swiperLoaded, setSwiperLoaded] = useState(false);
   const [slides, setSlides] = useState(
     typeof window !== "undefined" && window.innerWidth < 640
@@ -104,7 +112,15 @@ export default function FeaturesCard({ activeMenuIdx, menuContentLoading }) {
       >
         {featuresCard[activeMenuIdx].map((card, idx) => (
           <SwiperSlide key={idx}>
-            <Card key={idx} card={card} idx={idx} />
+            <Card
+              key={idx}
+              card={card}
+              idx={idx}
+              onClick={() => handleCardClick(idx)}
+              isOpen={isDialogOpen && activeCardIndex === idx}
+              setIsOpen={setIsDialogOpen}
+              imgData={featuresCard[activeMenuIdx]}
+            />
           </SwiperSlide>
         ))}
       </Swiper>

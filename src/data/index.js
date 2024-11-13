@@ -59,7 +59,7 @@ export const startedData = [
 export const featuresCard = [
   [
     {
-      imgUrl: "/assets/images/feature/profile/profile-1.jpg",
+      imgUrl: "/assets/images/feature/profile/profile-1.webp",
       heading: "Collections",
       coloredHeading: "ART",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
@@ -77,7 +77,7 @@ export const featuresCard = [
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
     },
     {
-      imgUrl: "/assets/images/feature/profile/profile-1.jpg",
+      imgUrl: "/assets/images/feature/profile/profile-1.webp",
       heading: "Collections",
       coloredHeading: "ART",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",

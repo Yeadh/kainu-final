@@ -402,3 +402,8 @@ body::-webkit-scrollbar-thumb {
 .swiper-button-prev {
   left: 0px !important; /* Adjust this value to move the button further left */
 }
+
+div.swiper-button-prev,
+div.swiper-button-next {
+  color: #00ffae;
+}
