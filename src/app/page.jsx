@@ -37,7 +37,7 @@ export default function Home() {
         {/* <Started /> */}
         <JoinParty />
       </div>
-      <Team />
+      {/* <Team /> */}
       {/* <Faq /> */}
       <DashboardPreview />
       <JoinGame />

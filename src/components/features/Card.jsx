@@ -32,11 +32,11 @@ const Card = ({ card, idx, isOpen, setIsOpen, onClick, imgData }) => {
 
   return (
     <>
-      <motion.div
-        key={card.heading}
-        initial="initial"
-        variants={cardVariant}
-        whileInView="enter"
+      <div
+        // key={card.heading}
+        // initial="initial"
+        // variants={cardVariant}
+        // whileInView="enter"
         className="flex flex-col gap-2 lg:gap-3 max-w-[600px] items-center rounded-md group cursor-pointer"
         onClick={onClick}
       >
@@ -56,7 +56,7 @@ const Card = ({ card, idx, isOpen, setIsOpen, onClick, imgData }) => {
             buttonHeight="h-7 2xl:h-9"
           />
         </div>
-      </motion.div>
+      </div>
 
       {/* Dialog with zoom functionality */}
       <Dialog open={isOpen} onOpenChange={handleDialogToggle}>

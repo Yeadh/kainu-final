@@ -503,13 +503,13 @@ export const bookCards = [
     desc: "We’ve set on the path make gamer’s Social Gaming Platrm",
   },
   {
-    img: "/assets/images/explore/ex-2.webp",
+    img: "/assets/images/explore/ex-new-1.webp",
     heading: "Streaming",
     label: "Page",
     desc: "We’ve set on the path make gamer’s Social Gaming Platrm",
   },
   {
-    img: "/assets/images/explore/ex-3.webp",
+    img: "/assets/images/explore/ex-new-2.webp",
     heading: "Match",
     label: "making",
     desc: "We’ve set on the path make gamer’s Social Gaming Platrm",

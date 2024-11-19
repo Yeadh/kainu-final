@@ -1,7 +1,7 @@
 import { Barlow, Poppins, Rubik, Archivo } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
-import ScrollProvider from "./_scrollProvider";
+// import ScrollProvider from "./_scrollProvider";
 import Navbar from "@/components/shared/navbar/Navbar";
 import LoadingProvider from "./_loadingProvider";
 import Footer from "@/components/shared/footer/Footer";
@@ -53,12 +53,12 @@ export default function RootLayout({ children }) {
         className={`${berlinSans.variable} ${rubik.variable} ${barlow.variable} ${poppins.variable} ${archivo.variable}`}
       >
         <LoadingProvider>
-          <ScrollProvider>
-            <ScrollToTopProvider />
-            <Navbar />
-            {children}
-            <Footer />
-          </ScrollProvider>
+          {/* <ScrollProvider> */}
+          <ScrollToTopProvider />
+          <Navbar />
+          {children}
+          <Footer />
+          {/* </ScrollProvider> */}
         </LoadingProvider>
       </body>
     </html>
