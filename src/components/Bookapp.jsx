@@ -1,6 +1,4 @@
-import { bookCards } from "@/data";
-import Image from "next/image";
-import { FaLongArrowAltRight } from "react-icons/fa";
+import BookAppCarousel from "./BookAppCarousel";
 import BookappCards from "./BookappCards";
 
 export default function Bookapp() {
@@ -14,7 +12,9 @@ export default function Bookapp() {
         </div>
 
         {/* cards */}
-        <BookappCards />
+        <div className="flex justify-center items-center">
+          <BookAppCarousel />
+        </div>
       </div>
     </section>
   );

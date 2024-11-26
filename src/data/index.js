@@ -498,20 +498,38 @@ export const opportunitySecondData = [
 export const bookCards = [
   {
     img: "/assets/images/explore/ex-1.webp",
-    heading: "Your",
-    label: "Profile",
+    heading: "Home",
+    label: "Page",
     desc: "We’ve set on the path make gamer’s Social Gaming Platrm",
   },
   {
     img: "/assets/images/explore/ex-new-1.webp",
-    heading: "Streaming",
+    heading: "Library",
     label: "Page",
     desc: "We’ve set on the path make gamer’s Social Gaming Platrm",
   },
   {
     img: "/assets/images/explore/ex-new-2.webp",
-    heading: "Match",
-    label: "making",
+    heading: "Game",
+    label: "download",
+    desc: "We’ve set on the path make gamer’s Social Gaming Platrm",
+  },
+  {
+    img: "/assets/images/bookapp/news.webp",
+    heading: "News",
+    label: "Page",
+    desc: "We’ve set on the path make gamer’s Social Gaming Platrm",
+  },
+  {
+    img: "/assets/images/bookapp/Buy now.webp",
+    heading: "Buy",
+    label: "Now",
+    desc: "We’ve set on the path make gamer’s Social Gaming Platrm",
+  },
+  {
+    img: "/assets/images/bookapp/checkout.webp",
+    heading: "Checkout",
+    label: "page",
     desc: "We’ve set on the path make gamer’s Social Gaming Platrm",
   },
 ];
