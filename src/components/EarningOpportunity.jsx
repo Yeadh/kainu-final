@@ -25,7 +25,7 @@ const EarningOpportunity = () => {
       variants={containerVariants}
       initial="hidden"
       animate={controls}
-      className="py-8 sm:py-10 md:py-14 lg:py-16 xl:py-24 2xl:py-28"
+      className="py-8 sm:py-10 md:py-14 lg:py-16 xl:py-24 2xl:py-28 mt-2 sm:mt-6 md:mt-7 lg:mt-8 xl:mt-7 2xl:mt-8"
     >
       <div className="main-container flex flex-col gap-7 md:gap-8 lg:gap-10 2xl:gap-8 2xl:rounded-3xl">
         <h2 className="text-center sub-heading uppercase xl:leading-tight font-poppins font-semibold">

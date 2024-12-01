@@ -1,5 +1,6 @@
 import BookAppCarousel from "./BookAppCarousel";
 import BookappCards from "./BookappCards";
+import CustomButtonVariantTwo from "./ui/CustomButtonVariantTwo";
 
 export default function Bookapp() {
   return (
@@ -14,6 +15,14 @@ export default function Bookapp() {
         {/* cards */}
         <div className="flex justify-center items-center">
           <BookAppCarousel />
+        </div>
+
+        {/* btn */}
+        <div className="flex justify-center">
+          <CustomButtonVariantTwo
+            textLable="Go to launcher"
+            buttonLink="https://launcher.katanainu.com/"
+          />
         </div>
       </div>
     </section>
