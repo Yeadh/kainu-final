@@ -12,6 +12,9 @@ export default function FeaturesHeader({ handleActiveMenuIdx }) {
         We’ve set on the path to make a gamer’s dream come true by offering an
         advanced Social Gaming Platform catering to both web2 and web3 users.
       </p>
+      <p className="text-sm xl:text-base 2xl:text-lg font-poppins text-white w-[300px] sm:w-[400px] md:w-[510px] 2xl:w-[750px] text-center capitalize">
+        MVP is done
+      </p>
 
       {/* btn */}
       <div className="flex flex-col gap-2 mt-6 md:mt-8 lg:mt-10">
