@@ -553,6 +553,10 @@ export const footerLink = {
       label: "Tokenomics",
       link: "https://www.katanainu.com/assets/resources/katanainuwhitepaper.pdf",
     },
+    {
+      label: "Pitchdeck",
+      link: "/assets/pdf/pitchdeck.pdf",
+    },
     // "Pancakeswap",
     // "Uniswap",
     // "FAQ",
