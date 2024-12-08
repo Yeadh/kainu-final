@@ -16,6 +16,7 @@ const JoinGameContent = () => {
           textSize="lg:text-base"
           buttonHeight="h-8 lg:h-9 2xl:h-10"
           buttonPadding=" lg:px-9"
+          buttonLink="/2010design/html/pcnews.html"
         />
       </div>
     </div>

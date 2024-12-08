@@ -90,6 +90,7 @@ export default function FooterLinks() {
               <div key={idx} className="w-fit">
                 <Link
                   href={link.link}
+                  target="_blank"
                   className="text-gray-400 hover:text-[#FFE100] transition duration-300 ease-in-out font-poppins font-medium text-base xl:text-lg"
                 >
                   {link.label}

@@ -8,6 +8,7 @@ import Started from "@/components/Started";
 import Statistics from "@/components/Statistics";
 import SuperCharged from "@/components/SuperCharged";
 import Banner from "@/components/banner/Banner";
+import DashboardPreview from "@/components/dashboard/DashboardPreview";
 import Features from "@/components/features/Features";
 import JoinParty from "@/components/join/JoinParty";
 import JoinGame from "@/components/joinGame/JoinGame";
@@ -36,8 +37,9 @@ export default function Home() {
         {/* <Started /> */}
         <JoinParty />
       </div>
-      <Team />
+      {/* <Team /> */}
       {/* <Faq /> */}
+      <DashboardPreview />
       <JoinGame />
       <Statistics />
       {/* </div> */}

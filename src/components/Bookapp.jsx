@@ -1,7 +1,6 @@
-import { bookCards } from "@/data";
-import Image from "next/image";
-import { FaLongArrowAltRight } from "react-icons/fa";
+import BookAppCarousel from "./BookAppCarousel";
 import BookappCards from "./BookappCards";
+import CustomButtonVariantTwo from "./ui/CustomButtonVariantTwo";
 
 export default function Bookapp() {
   return (
@@ -14,7 +13,17 @@ export default function Bookapp() {
         </div>
 
         {/* cards */}
-        <BookappCards />
+        <div className="flex justify-center items-center">
+          <BookAppCarousel />
+        </div>
+
+        {/* btn */}
+        <div className="flex justify-center">
+          <CustomButtonVariantTwo
+            textLable="Go to launcher"
+            buttonLink="https://launcher.katanainu.com/"
+          />
+        </div>
       </div>
     </section>
   );
