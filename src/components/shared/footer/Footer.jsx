@@ -1,5 +1,4 @@
 import FooterLinks from "./FooterLinks";
-import FooterSocialLink from "./FooterSocialLink";
 
 const Footer = () => {
   return (
@@ -7,7 +6,6 @@ const Footer = () => {
       <div className="section-padding">
         <FooterLinks />
       </div>
-      {/* <FooterSocialLink /> */}
     </footer>
   );
 };

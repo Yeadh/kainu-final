@@ -575,16 +575,32 @@ export const statisticsData = [
 
 export const footerLink = {
   quickLink: [
+    {
+      label: "Whitepaper",
+      link: "https://www.katanainu.com/assets/resources/katanainuwhitepaper.pdf",
+    },
+    {
+      label: "Tokenomics",
+      link: "https://www.katanainu.com/assets/resources/katanainutokenomics.pdf",
+    },
+    {
+      label: "Roadmap",
+      link: "#",
+    },
     // "Pancakeswap",
     // "Uniswap",
-    "Whitepaper",
-    "Roadmap",
-    "Tokenomics",
+    // "Whitepaper",
+    // "Roadmap",
+    // "Tokenomics",
     // "FAQ",
     // "Chainplay",
   ],
   needHelp: [
-    "Contact Us",
+    {
+      label: "Contact Us",
+      link: "mailto:support@katanainu.com",
+    },
+    // "Contact Us",
     //  "Discord",
     // "Medium",
     //  "Reddit",

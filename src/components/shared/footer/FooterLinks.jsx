@@ -89,10 +89,10 @@ export default function FooterLinks() {
             {footerLink.quickLink.map((link, idx) => (
               <div key={idx} className="w-fit">
                 <Link
-                  href={"/"}
+                  href={link.link}
                   className="text-gray-400 hover:text-[#FFE100] transition duration-300 ease-in-out font-poppins font-medium text-base xl:text-lg"
                 >
-                  {link}
+                  {link.label}
                 </Link>
                 <div className="w-[160px] h-[1px] bg-gradient-to-r from-transparent via-[#00E5FF]/50 to-transparent mt-2" />
               </div>
@@ -116,10 +116,10 @@ export default function FooterLinks() {
             {footerLink.needHelp.map((link) => (
               <div key={link} className="w-fit">
                 <Link
-                  href={"/"}
+                  href={link.link}
                   className="text-gray-400 hover:text-[#FFE100] transition duration-300 ease-in-out font-poppins font-medium text-base xl:text-lg"
                 >
-                  {link}
+                  {link.label}
                 </Link>
 
                 <div className="w-[160px] h-[1px] bg-gradient-to-r from-transparent via-[#00E5FF]/50 to-transparent mt-2" />
