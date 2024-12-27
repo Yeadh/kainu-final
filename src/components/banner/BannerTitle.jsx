@@ -42,7 +42,11 @@ const BannerTitle = () => {
 
         {/* cta btn */}
         <div className="flex items-center gap-4 mt-4 md:mt-5 lg:mt-6 xl:mt-7 2xl:mt-9">
-          <CustomButtonVariantTwo primary={false} textLable="Deck" />
+          <CustomButtonVariantTwo
+            primary={false}
+            textLable="Deck"
+            buttonLink="/assets/pdf/pitchdeck.pdf"
+          />
           {/* pop up */}
           <Dialog>
             <DialogTrigger>
