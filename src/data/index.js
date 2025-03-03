@@ -65,9 +65,15 @@ export const featuresCard = [
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
     },
     {
-      imgUrl: "/assets/images/featureImages/profile/profile-1.jpg",
+      imgUrl: "/assets/images/featureImages/profile/profile-2.webp",
       heading: "Your",
       coloredHeading: "Profile",
+      desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
+    },
+    {
+      imgUrl: "/assets/images/featureImages/profile/profile-3.webp",
+      heading: "Collections",
+      coloredHeading: "ART",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
     },
     {
@@ -76,8 +82,28 @@ export const featuresCard = [
       coloredHeading: "ART",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
     },
+  ],
+  [
     {
-      imgUrl: "/assets/images/featureImages/profile/profile-1.jpg",
+      imgUrl: "/assets/images/featureImages/tournaments/tour-1.webp",
+      heading: "Collections",
+      coloredHeading: "ART",
+      desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
+    },
+    {
+      imgUrl: "/assets/images/featureImages/tournaments/tour-2.webp",
+      heading: "Your",
+      coloredHeading: "Profile",
+      desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
+    },
+    {
+      imgUrl: "/assets/images/featureImages/tournaments/tour-3.webp",
+      heading: "Collections",
+      coloredHeading: "ART",
+      desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
+    },
+    {
+      imgUrl: "/assets/images/featureImages/tournaments/tour-1.webp",
       heading: "Collections",
       coloredHeading: "ART",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
@@ -85,51 +111,25 @@ export const featuresCard = [
   ],
   [
     {
-      imgUrl: "/assets/images/featureImages/tournaments/tour-1.jpg",
+      imgUrl: "/assets/images/featureImages/esport/esport-1.png",
       heading: "Collections",
       coloredHeading: "ART",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
     },
     {
-      imgUrl: "/assets/images/featureImages/tournaments/tour-1.jpg",
+      imgUrl: "/assets/images/featureImages/esport/esport-2.png",
       heading: "Your",
       coloredHeading: "Profile",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
     },
     {
-      imgUrl: "/assets/images/featureImages/tournaments/tour-1.jpg",
+      imgUrl: "/assets/images/featureImages/esport/esport-3.png",
       heading: "Collections",
       coloredHeading: "ART",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
     },
     {
-      imgUrl: "/assets/images/featureImages/tournaments/tour-1.jpg",
-      heading: "Collections",
-      coloredHeading: "ART",
-      desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
-    },
-  ],
-  [
-    {
-      imgUrl: "/assets/images/featureImages/esport/esport-1.jpg",
-      heading: "Collections",
-      coloredHeading: "ART",
-      desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
-    },
-    {
-      imgUrl: "/assets/images/featureImages/esport/esport-1.jpg",
-      heading: "Your",
-      coloredHeading: "Profile",
-      desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
-    },
-    {
-      imgUrl: "/assets/images/featureImages/esport/esport-1.jpg",
-      heading: "Collections",
-      coloredHeading: "ART",
-      desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
-    },
-    {
-      imgUrl: "/assets/images/featureImages/esport/esport-1.jpg",
+      imgUrl: "/assets/images/featureImages/esport/esport-1.png",
       heading: "Collections",
       coloredHeading: "ART",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
@@ -163,25 +163,25 @@ export const featuresCard = [
   ],
   [
     {
-      imgUrl: "/assets/images/featureImages/streaming/stream-1.jpg",
+      imgUrl: "/assets/images/featureImages/streaming/stream-1.webp",
       heading: "Collections",
       coloredHeading: "ART",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
     },
     {
-      imgUrl: "/assets/images/featureImages/streaming/stream-1.jpg",
+      imgUrl: "/assets/images/featureImages/streaming/stream-2.webp",
       heading: "Your",
       coloredHeading: "Profile",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
     },
     {
-      imgUrl: "/assets/images/featureImages/streaming/stream-1.jpg",
+      imgUrl: "/assets/images/featureImages/streaming/stream-3.webp",
       heading: "Collections",
       coloredHeading: "ART",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
     },
     {
-      imgUrl: "/assets/images/featureImages/streaming/stream-1.jpg",
+      imgUrl: "/assets/images/featureImages/streaming/stream-1.webp",
       heading: "Collections",
       coloredHeading: "ART",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
@@ -189,25 +189,25 @@ export const featuresCard = [
   ],
   [
     {
-      imgUrl: "/assets/images/featureImages/gameFanpage/game-1.jpg",
+      imgUrl: "/assets/images/featureImages/gameFanpage/game-1.webp",
       heading: "Collections",
       coloredHeading: "ART",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
     },
     {
-      imgUrl: "/assets/images/featureImages/gameFanpage/game-1.jpg",
+      imgUrl: "/assets/images/featureImages/gameFanpage/game-2.webp",
       heading: "Your",
       coloredHeading: "Profile",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
     },
     {
-      imgUrl: "/assets/images/featureImages/gameFanpage/game-1.jpg",
+      imgUrl: "/assets/images/featureImages/gameFanpage/game-3.webp",
       heading: "Collections",
       coloredHeading: "ART",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
     },
     {
-      imgUrl: "/assets/images/featureImages/gameFanpage/game-1.jpg",
+      imgUrl: "/assets/images/featureImages/gameFanpage/game-1.webp",
       heading: "Collections",
       coloredHeading: "ART",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
@@ -215,25 +215,25 @@ export const featuresCard = [
   ],
   [
     {
-      imgUrl: "/assets/images/featureImages/chat/chat-1.jpg",
+      imgUrl: "/assets/images/featureImages/chat/chat-1.webp",
       heading: "Collections",
       coloredHeading: "ART",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
     },
     {
-      imgUrl: "/assets/images/featureImages/chat/chat-1.jpg",
+      imgUrl: "/assets/images/featureImages/chat/chat-2.webp",
       heading: "Your",
       coloredHeading: "Profile",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
     },
     {
-      imgUrl: "/assets/images/featureImages/chat/chat-1.jpg",
+      imgUrl: "/assets/images/featureImages/chat/chat-3.webp",
       heading: "Collections",
       coloredHeading: "ART",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
     },
     {
-      imgUrl: "/assets/images/featureImages/chat/chat-1.jpg",
+      imgUrl: "/assets/images/featureImages/chat/chat-1.webp",
       heading: "Collections",
       coloredHeading: "ART",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
@@ -241,25 +241,26 @@ export const featuresCard = [
   ],
   [
     {
-      imgUrl: "/assets/images/featureImages/nft/nft-1.jpg",
+      // imgUrl: "/assets/images/featureImages/nft/nft-1.jpg",
+      imgUrl: "/assets/images/featureImages/profile/profile-1.webp",
       heading: "Collections",
       coloredHeading: "ART",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
     },
     {
-      imgUrl: "/assets/images/featureImages/nft/nft-1.jpg",
+      imgUrl: "/assets/images/featureImages/profile/profile-2.webp",
       heading: "Your",
       coloredHeading: "Profile",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
     },
     {
-      imgUrl: "/assets/images/featureImages/nft/nft-1.jpg",
+      imgUrl: "/assets/images/featureImages/profile/profile-3.webp",
       heading: "Collections",
       coloredHeading: "ART",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
     },
     {
-      imgUrl: "/assets/images/featureImages/nft/nft-1.jpg",
+      imgUrl: "/assets/images/featureImages/profile/profile-1.webp",
       heading: "Collections",
       coloredHeading: "ART",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
@@ -273,13 +274,14 @@ export const featuresCard = [
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
     },
     {
-      imgUrl: "/assets/images/featureImages/marketplace/marketplace-1.png",
+      // imgUrl: "/assets/images/featureImages/marketplace/marketplace-1.png",
+      imgUrl: "/assets/images/featureImages/launcher/launcher-1.webp",
       heading: "Your",
       coloredHeading: "Profile",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
     },
     {
-      imgUrl: "/assets/images/featureImages/marketplace/marketplace-1.png",
+      imgUrl: "/assets/images/featureImages/launcher/launcher-2.webp",
       heading: "Collections",
       coloredHeading: "ART",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
@@ -299,13 +301,13 @@ export const featuresCard = [
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
     },
     {
-      imgUrl: "/assets/images/featureImages/sellGames/sell-1.jpg",
+      imgUrl: "/assets/images/featureImages/profile/profile-1.webp",
       heading: "Your",
       coloredHeading: "Profile",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
     },
     {
-      imgUrl: "/assets/images/featureImages/sellGames/sell-1.jpg",
+      imgUrl: "/assets/images/featureImages/profile/profile-2.webp",
       heading: "Collections",
       coloredHeading: "ART",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
@@ -325,13 +327,13 @@ export const featuresCard = [
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
     },
     {
-      imgUrl: "/assets/images/featureImages/ai/ai-1.jpg",
+      imgUrl: "/assets/images/featureImages/esport/esport-1.png",
       heading: "Your",
       coloredHeading: "Profile",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
     },
     {
-      imgUrl: "/assets/images/featureImages/ai/ai-1.jpg",
+      imgUrl: "/assets/images/featureImages/streaming/stream-1.webp",
       heading: "Collections",
       coloredHeading: "ART",
       desc: "We’ve set on the path to make a gamer’s dream come true an advanced Social Gaming Platform",
