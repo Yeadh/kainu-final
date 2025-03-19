@@ -511,13 +511,6 @@ export const statisticsData = [
     hoverBgColor: "hover:bg-[#F264FF]",
     socialLink: "https://x.com/kainu_io",
   },
-  // {
-  //   label: "Instagram",
-  //   icon: "/assets/icons/instagram.svg",
-  //   bgColor: "bg-[#3c1a5f]",
-  //   hoverBgColor: "hover:bg-[#F264FF]",
-  //   socialLink: "https://www.instagram.com/katanainu",
-  // },
   {
     label: "Pitchdeck",
     icon: "/assets/icons/social-3.svg",
