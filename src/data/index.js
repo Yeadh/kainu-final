@@ -523,21 +523,22 @@ export const statisticsData = [
     icon: "/assets/icons/social-3.svg",
     bgColor: "bg-[#0c345f]",
     hoverBgColor: "hover:bg-[#00E5FF]",
-    socialLink: "#",
+    socialLink: "/assets/pdf/kainu_pitch_deck.pdf",
   },
   {
     label: "Tokenomics",
     icon: "/assets/icons/social-4.svg",
     bgColor: "bg-[#0c345f]",
     hoverBgColor: "hover:bg-[#00E5FF]",
-    socialLink: "/assets/pdf/tokenomics.jpg",
+    socialLink:
+      "https://docs.google.com/spreadsheets/d/1juVD3n8Ytx4CIFaYWJjEavA4YWM6FMzX/edit?gid=1221192805#gid=1221192805",
   },
   {
     label: "White paper",
     icon: "/assets/icons/social-5.svg",
     bgColor: "bg-[#0c345f]",
     hoverBgColor: "hover:bg-[#00E5FF]",
-    socialLink: "/assets/pdf/whitepaper.pdf",
+    socialLink: "/assets/pdf/kainu_whitepaper.pdf",
   },
 ];
 
@@ -545,7 +546,7 @@ export const footerLink = {
   quickLink: [
     {
       label: "Whitepaper",
-      link: "https://www.katanainu.com/assets/resources/katanainuwhitepaper.pdf",
+      link: "/assets/pdf/kainu_whitepaper.pdf",
     },
     {
       label: "Roadmap",
@@ -553,11 +554,11 @@ export const footerLink = {
     },
     {
       label: "Tokenomics",
-      link: "https://www.katanainu.com/assets/resources/katanainuwhitepaper.pdf",
+      link: "https://docs.google.com/spreadsheets/d/1juVD3n8Ytx4CIFaYWJjEavA4YWM6FMzX/edit?gid=1221192805#gid=1221192805",
     },
     {
       label: "Pitchdeck",
-      link: "/assets/pdf/pitchdeck.pdf",
+      link: "/assets/pdf/kainu_pitch_deck.pdf",
     },
     // "Pancakeswap",
     // "Uniswap",
