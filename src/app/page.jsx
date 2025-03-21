@@ -39,7 +39,7 @@ export default function Home() {
       </div>
       {/* <Team /> */}
       {/* <Faq /> */}
-      <DashboardPreview />
+      {/* <DashboardPreview /> */}
       <JoinGame />
       <Statistics />
       {/* </div> */}
