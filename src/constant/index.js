@@ -5,18 +5,18 @@ export const navLinks = [
   },
   {
     label: "About US",
+    link: "/2010design/html/pcnews.html",
+  },
+  {
+    label: "Game-Launcher",
     link: "/",
   },
   {
-    label: "Tournament",
+    label: "MVP",
     link: "/",
   },
   {
-    label: "Download",
-    link: "/",
-  },
-  {
-    label: "Contact",
+    label: "Marketplace",
     link: "/",
   },
 ];
